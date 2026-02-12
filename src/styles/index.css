@@ -9,3 +9,42 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.traffic-light {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: black;
+  padding: 20px;
+  width: 100px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.light {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+
+.red {
+  background: red;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.green {
+  background: green;
+}
+.active {
+  opacity: 1;
+}
+.purple {
+  background-color: purple;
+}
+.purple.active {
+  box-shadow: 0 0 20px purple;
+}
